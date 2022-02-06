@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marie Curie Scientist Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> Marie Curie</h1>
+    <div class="info-div">
+        <img src="./images/marie-curie.jpg" alt="An image of Marie Curie">
+        <p class="info-paragraph"> Marie Curie was a physicist, chemist and pioneer in the study of radiation. She discovered the elements polonium and radium with her husband, Piere. They were awarded the Nobel Prize in Physics in 1903, along with Henri Becquerel, and Marie received the Nobel Prize in Chemistry in 1911. She worked extensively with radium throughout her lifetime, characterizing its various properties and investigating its therapeutic potential. However, her work with radioactive materials ultimately killed her and he died of a blood disease in 1934. <a href="https://www.livescience.com/38907-marie-curie-facts-biography.html">Source</a></p>
+    </div>
+    <!-- Events Section -->
+    <h2>Upcoming Events</h2>
+    </div>
+    <div class="events-div">
+        <div class="event">
+            <p class="event-name">Event 1</p>
+            <p class="event-location">Location 1</p>
+            <p class="event-date">Date 1</p>
+        </div>
+        <div class="event">
+            <p class="event-name">Event 2</p>
+            <p class="event-location">Location 2</p>
+            <p class="event-date">Date 2</p>
+        </div>
+        <div class="event">
+            <p class="event-name">Event 3</p>
+            <p class="event-location">Location 3</p>
+            <p class="event-date">Date 3</p>
+        </div>
+    </div>
+    <!-- Style Button -->
+    <div class="style-button"></div>
+        <button type="button" onclick="style_me()"> Style Me</button>
+    </div> 
+
+    <script>
+        function style_me() {
+        //using DOM fill in the body of the tags for event name, location and date
+        }
+
+        function add_scientist() {
+        // generate list of scientist based on form input
+        let scientists = []
+        let scientist = document.getElementById("submit-scientist");
+        scientists.append(scientist)  
+        }
+        return scientists
+    </script>
+
+
+    <!-- Articles Section -->
+    <h2>Articles</h2>
+    <div class="articles">
+        <div class="article">Article</div>
+        <div class="article">Article</div>
+        <div class="article">Article</div>
+        <div class="article">Article</div>
+    </div>
+
+    <!-- Form Section -->
+    <h2>Favourite Scientist</h2>
+    <form id="scientists">
+        <input id="favourite-scientist" type="text" placeholder="Type your favourite scientist here" size="50">
+        <button id="submit-scientist" type="button" onclick="add_scientist()">Add to List</button>
+    </form>
+    <!-- generate table with rows of favourite scientist input -->
+    <!-- Should use the add_scientist() function -->
+</body>
+</html>

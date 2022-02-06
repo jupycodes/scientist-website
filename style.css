@@ -1,0 +1,79 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.info-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.events-div {
+    display: flex;
+    justify-content: center;
+}
+
+.event {
+    padding-left: 50px;
+    padding-right: 50px;
+    border: solid;
+    border-color: rgb(8, 8, 83);
+    margin: 20px;
+}
+
+img {
+    margin-right: 40px;
+    width: 300px;
+    height: auto;
+    border: solid;
+    border-width: 8px;
+    border-color: rgb(8, 8, 83);
+}
+
+.info-paragraph {
+    min-width: 300px;
+    max-width: 600px;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(8, 8, 83);
+}
+
+h1, h2 {
+    text-align: center;
+    background-color: rgb(8, 8, 83);
+    color: white;
+    padding: 5px;
+}
+
+.article, .event {
+    text-align: center;
+    color: rgb(8, 8, 83);
+    padding: 16px;
+}
+
+button {
+    border: solid;
+    border-color: rgb(8, 8, 83);
+    background-color: rgb(182, 182, 243);
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.style-button {
+    display: flex;
+    justify-content: center;
+    /* Why doesn't this center the button? */
+}
+
+#favourite-scientist {
+    font-size: 20px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
